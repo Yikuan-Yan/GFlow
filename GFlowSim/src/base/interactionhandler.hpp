@@ -5,6 +5,7 @@
 #include "../utility/vectormath.hpp"
 #include "../other/timedobject.hpp"
 #include "simdata.hpp"
+#include <functional>
 
 namespace GFlowSimulation {
 

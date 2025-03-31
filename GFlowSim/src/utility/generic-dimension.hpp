@@ -2,7 +2,7 @@
 #define __GENERIC_DIMENSION_HPP__GFLOW__
 
 #include "../gflow.hpp"
-
+#include <functional>
 namespace GFlowSimulation {
 
   inline bool isWrap(const BCFlag bc) {
