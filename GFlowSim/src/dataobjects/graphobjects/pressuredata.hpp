@@ -1,4 +1,5 @@
 #ifndef __PRESSURE_DATA_HPP__GFLOW__
+#include <functional>
 #define __PRESSURE_DATA_HPP__GFLOW__
 
 #include "../dataobjecttypes/graphobject.hpp"

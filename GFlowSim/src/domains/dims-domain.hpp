@@ -1,5 +1,6 @@
 
 #ifndef __DIMS_DOMAIN_TEST_HPP__GFLOW__
+#include <functional>
 #define __DIMS_DOMAIN_TEST_HPP__GFLOW__
 
 #include "../base/domainbase.hpp"

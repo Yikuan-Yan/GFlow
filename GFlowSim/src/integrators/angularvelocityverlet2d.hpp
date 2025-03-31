@@ -1,4 +1,5 @@
 #ifndef __ANGULAR_VELOCITY_VERLET_2D_HPP__GFLOW__
+#include <functional>
 #define __ANGULAR_VELOCITY_VERLET_2D_HPP__GFLOW__
 
 #include "../base/integrator.hpp"

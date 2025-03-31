@@ -1,4 +1,5 @@
 #ifndef __DEBUG_CREATOR_HPP__GFLOW__
+#include <functional>
 #define __DEBUG_CREATOR_HPP__GFLOW__
 
 #include "../base/creator.hpp"

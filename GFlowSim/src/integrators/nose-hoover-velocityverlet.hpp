@@ -1,4 +1,5 @@
 #ifndef __NOSE_HOOVER_VELOCITY_VERLET_HPP__GFLOW__
+#include <functional>
 #define __NOSE_HOOVER_VELOCITY_VERLET_HPP__GFLOW__
 
 #include "../base/integrator.hpp"

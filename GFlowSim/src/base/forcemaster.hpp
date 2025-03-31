@@ -1,4 +1,5 @@
 #ifndef __FORCE_MASTER_HPP__GFLOW__
+#include <functional>
 #define __FORCE_MASTER_HPP__GFLOW__
 
 #include "../gflow.hpp"

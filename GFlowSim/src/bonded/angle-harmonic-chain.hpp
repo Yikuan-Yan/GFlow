@@ -1,4 +1,5 @@
 #ifndef __ANGLE_HARMONIC_CHAIN_HPP__GFLOW__
+#include <functional>
 #define __ANGLE_HARMONIC_CHAIN_HPP__GFLOW__
 
 // Useful: "Determination of Forces from a Potential in Molecular Dynamics"

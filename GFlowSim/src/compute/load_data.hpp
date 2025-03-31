@@ -1,4 +1,5 @@
 #ifndef __LOAD_DATA_HPP__GFLOW__
+#include <functional>
 #define __LOAD_DATA_HPP__GFLOW__
 
 #include "../utility/utility.hpp"

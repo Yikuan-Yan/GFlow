@@ -1,4 +1,5 @@
 #ifndef __DATA_MASTER_HPP__GFLOW__
+#include <functional>
 #define __DATA_MASTER_HPP__GFLOW__
 
 #include "dataobject.hpp"

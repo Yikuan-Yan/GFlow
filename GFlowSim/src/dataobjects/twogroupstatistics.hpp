@@ -1,4 +1,5 @@
 #ifndef __TWO_GROUP_STATISTICS_HPP__GFLOW__
+#include <functional>
 #define __TWO_GROUP_STATISTICS_HPP__GFLOW__
 
 #include "../base/dataobject.hpp"

@@ -1,4 +1,5 @@
 #ifndef __INTEGRATOR_HPP__GFLOW__
+#include <functional>
 #define __INTEGRATOR_HPP__GFLOW__
 
 #include "../gflow.hpp"

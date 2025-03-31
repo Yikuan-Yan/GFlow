@@ -1,4 +1,5 @@
 #ifndef __NEIGHBOR_HISTORY_HPP__GFLOW__
+#include <functional>
 #define __NEIGHBOR_HISTORY_HPP__GFLOW__
 
 #include "../gflow.hpp"

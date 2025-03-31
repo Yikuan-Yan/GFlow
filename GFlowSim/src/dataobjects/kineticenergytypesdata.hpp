@@ -1,4 +1,5 @@
 #ifndef __KINETIC_ENERGY_TYPES_DATA_HPP__GFLOW__
+#include <functional>
 #define __KINETIC_ENERGY_TYPES_DATA_HPP__GFLOW__
 
 #include "../base/dataobject.hpp"

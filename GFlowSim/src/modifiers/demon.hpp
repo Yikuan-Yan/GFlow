@@ -1,4 +1,5 @@
 #ifndef __DEMON_HPP__GFLOW__
+#include <functional>
 #define __DEMON_HPP__GFLOW__
 
 #include "../base/modifier.hpp"

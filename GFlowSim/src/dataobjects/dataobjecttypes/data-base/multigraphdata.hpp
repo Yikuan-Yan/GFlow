@@ -1,4 +1,5 @@
 #ifndef __MULTI_GRAPH_DATA_HPP__GFLOW__
+#include <functional>
 #define __MULTI_GRAPH_DATA_HPP__GFLOW__
 
 #include "../../../gflow.hpp"

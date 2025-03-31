@@ -1,4 +1,5 @@
 #ifndef __ALL_INTEGRATORS_HPP__GFLOW__
+#include <functional>
 #define __ALL_INTEGRATORS_HPP__GFLOW__
 
 #include "integrators/velocityverlet.hpp"

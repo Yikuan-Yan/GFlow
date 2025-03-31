@@ -1,4 +1,5 @@
 #ifndef __DEFAULT_CONSTANTS_HPP__GFLOW__
+#include <functional>
 #define __DEFAULT_CONSTANTS_HPP__GFLOW__
 
 //! For aligned memory. We set this to 1 if we are using posiz memalign as our

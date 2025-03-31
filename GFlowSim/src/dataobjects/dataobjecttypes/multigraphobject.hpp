@@ -1,4 +1,5 @@
 #ifndef __MULTIGRAPH_HPP__GFLOW__
+#include <functional>
 #define __MULTIGRAPH_HPP__GFLOW__
 
 #include "../../base/dataobject.hpp"

@@ -1,4 +1,5 @@
 #ifndef __VISUALIZATION_HPP__GFLOW__
+#include <functional>
 #define __VISUALIZATION_HPP__GFLOW__
 
 #include "palette.hpp"

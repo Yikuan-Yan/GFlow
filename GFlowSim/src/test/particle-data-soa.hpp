@@ -1,4 +1,5 @@
 #ifndef __PARTICLE_CONTAINER__GFLOW__
+#include <functional>
 #define __PARTICLE_CONTAINER__GFLOW__
 
 #include "../gflow.hpp"

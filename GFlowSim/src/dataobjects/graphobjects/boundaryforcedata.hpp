@@ -1,4 +1,5 @@
 #ifndef __BOUNDARY_FORCE_DATA_HPP__GFLOW__
+#include <functional>
 #define __BOUNDARY_FORCE_DATA_HPP__GFLOW__
 
 #include "../dataobjecttypes/graphobject.hpp"

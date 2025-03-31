@@ -1,4 +1,5 @@
 #ifndef __PRINTING_UTILITY_HPP__GFLOW__
+#include <functional>
 #define __PRINTING_UTILITY_HPP__GFLOW__
 
 #include "utility.hpp"

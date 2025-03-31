@@ -1,4 +1,5 @@
 #ifndef __CREATOR_HPP__GFLOW__
+#include <functional>
 #define __CREATOR_HPP__GFLOW__
 
 #include "../utility/utility.hpp"

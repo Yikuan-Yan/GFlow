@@ -1,4 +1,5 @@
 #ifndef __ALL_FORCES_HPP__GFLOW__
+#include <functional>
 #define __ALL_FORCES_HPP__GFLOW__
 
 // Generic forces. Many forces are defined here.

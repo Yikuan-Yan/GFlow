@@ -1,4 +1,5 @@
 #ifndef __CONTAINER_LAYOUT_HPP__GFLOW__
+#include <functional>
 #define __CONTAINER_LAYOUT_HPP__GFLOW__
 
 // Include the relevant files.

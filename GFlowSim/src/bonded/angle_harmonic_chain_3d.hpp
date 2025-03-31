@@ -1,4 +1,5 @@
 #ifndef __ANGLE_HARMONIC_CHAIN_3D_HPP__GFLOW__
+#include <functional>
 #define __ANGLE_HARMONIC_CHAIN_3D_HPP__GFLOW__
 
 #include "angle-harmonic-chain.hpp"

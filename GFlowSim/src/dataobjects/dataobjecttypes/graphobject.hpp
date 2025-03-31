@@ -1,4 +1,5 @@
 #ifndef __GRAPH_OBJECT_HPP__GFLOW__
+#include <functional>
 #define __GRAPH_OBJECT_HPP__GFLOW__
 
 #include "../../base/dataobject.hpp"

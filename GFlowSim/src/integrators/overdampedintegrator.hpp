@@ -1,4 +1,5 @@
 #ifndef __OVERDAMPED_INTEGRATOR_HPP__GFLOW__
+#include <functional>
 #define __OVERDAMPED_INTEGRATOR_HPP__GFLOW__
 
 #include "../base/integrator.hpp"

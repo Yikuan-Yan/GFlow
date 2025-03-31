@@ -1,4 +1,5 @@
 #ifndef __TORQUE_REMOVER_HPP__GFLOW__
+#include <functional>
 #define __TORQUE_REMOVER_HPP__GFLOW__
 
 #include "../base/modifier.hpp"

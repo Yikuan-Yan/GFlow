@@ -1,4 +1,5 @@
 #ifndef __D_DOMAIN_HPP__GFLOW__
+#include <functional>
 #define __D_DOMAIN_HPP__GFLOW__
 
 #include "container-layout.hpp"

@@ -1,4 +1,5 @@
 #ifndef __RANDOM_ENGINES_HPP__GFLOW__
+#include <functional>
 #define __RANDOM_ENGINES_HPP__GFLOW__
 
 #include "utility.hpp"

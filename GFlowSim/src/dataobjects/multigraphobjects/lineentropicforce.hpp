@@ -1,4 +1,5 @@
 #ifndef __LINE_ENTROPIC_FORCE_HPP__GFLOW__
+#include <functional>
 #define __LINE_ENTROPIC_FORCE_HPP__GFLOW__
 
 #include "../dataobjecttypes/multigraphobject.hpp"

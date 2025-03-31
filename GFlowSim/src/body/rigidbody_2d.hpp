@@ -1,4 +1,5 @@
 #ifndef __RIGID_BODY_HPP__GFLOW__
+#include <functional>
 #define __RIGID_BODY_HPP__GFLOW__
 
 #include "../base/body.hpp"

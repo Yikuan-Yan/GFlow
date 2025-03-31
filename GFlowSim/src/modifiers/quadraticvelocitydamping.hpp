@@ -1,4 +1,5 @@
 #ifndef __QUADRATIC_VELOCITY_DAMPING_HPP__GFLOW__
+#include <functional>
 #define __QUADRATIC_VELOCITY_DAMPING_HPP__GFLOW__
 
 #include "../base/modifier.hpp"

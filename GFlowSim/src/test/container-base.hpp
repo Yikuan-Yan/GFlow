@@ -1,4 +1,5 @@
 #ifndef __PARTICLE_CONTAINER_BASE_HPP__GFLOW__
+#include <functional>
 #define __PARTICLE_CONTAINER_BASE_HPP__GFLOW__
 
 #include "../utility/utility.hpp"

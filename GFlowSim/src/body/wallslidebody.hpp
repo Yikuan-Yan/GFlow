@@ -1,4 +1,5 @@
 #ifndef __WALL_SLIDE_BODY_HPP__GFLOW__
+#include <functional>
 #define __WALL_SLIDE_BODY_HPP__GFLOW__
 
 #include "../base/body.hpp"

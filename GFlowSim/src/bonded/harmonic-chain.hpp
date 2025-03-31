@@ -1,4 +1,5 @@
 #ifndef __HARMONIC_CHAIN_HPP__GFLOW__
+#include <functional>
 #define __HARMONIC_CHAIN_HPP__GFLOW__
 
 #include "../base/bonded.hpp"

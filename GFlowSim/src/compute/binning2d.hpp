@@ -1,4 +1,5 @@
 #ifndef __BINNING_2D_HPP__GFLOW__
+#include <functional>
 #define __BINNING_2D_HPP__GFLOW__
 
 #include "../utility/utility.hpp"

@@ -1,4 +1,5 @@
 #ifndef __REGION_HPP__GFLOW__
+#include <functional>
 #define __REGION_HPP__GFLOW__
 
 #include "../utility/bounds.hpp"

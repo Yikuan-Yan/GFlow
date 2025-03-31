@@ -1,4 +1,5 @@
 #ifndef __GROUP_HPP__GFLOW__
+#include <functional>
 #define __GROUP_HPP__GFLOW__
 
 #include "../gflow.hpp"

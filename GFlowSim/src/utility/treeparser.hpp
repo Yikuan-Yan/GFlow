@@ -1,4 +1,5 @@
 #ifndef __TREE_PARSER_HPP__GFLOW__
+#include <functional>
 #define __TREE_PARSER_HPP__GFLOW__
 
 #include "fileparse.hpp"

@@ -1,4 +1,5 @@
 #ifndef __ARRAY_HPP__GFLOW__
+#include <functional>
 #define __ARRAY_HPP__GFLOW__
 
 #include "utility.hpp"

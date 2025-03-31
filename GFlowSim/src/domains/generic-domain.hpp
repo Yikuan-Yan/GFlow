@@ -1,4 +1,5 @@
 #ifndef __GENERIC_DOMAIN_HPP__GFLOW__
+#include <functional>
 #define __GENERIC_DOMAIN_HPP__GFLOW__
 
 namespace GFlowSimulation {

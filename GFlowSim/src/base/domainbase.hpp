@@ -1,4 +1,5 @@
 #ifndef __DOMAIN_BASE_HPP__GFLOW__
+#include <functional>
 #define __DOMAIN_BASE_HPP__GFLOW__
 
 #include "interactionhandler.hpp"

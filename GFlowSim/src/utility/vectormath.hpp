@@ -1,4 +1,5 @@
 #ifndef __VECTOR_MATH_HPP__GFLOW__
+#include <functional>
 #define __VECTOR_MATH_HPP__GFLOW__
 
 #include "bounds.hpp"

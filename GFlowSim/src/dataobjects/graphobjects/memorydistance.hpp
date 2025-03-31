@@ -1,4 +1,5 @@
 #ifndef __MEMORY_DISTANCE_HPP__GFLOW__
+#include <functional>
 #define __MEMORY_DISTANCE_HPP__GFLOW__
 
 #include "../dataobjecttypes/graphobject.hpp"

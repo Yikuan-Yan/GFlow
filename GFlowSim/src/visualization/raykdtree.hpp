@@ -1,4 +1,5 @@
 #ifndef __RAY_KD_TREE_HPP__GFLOW__
+#include <functional>
 #define __RAY_KD_TREE_HPP__GFLOW__
 
 #include "raytracestructs.hpp"

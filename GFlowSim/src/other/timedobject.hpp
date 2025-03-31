@@ -1,4 +1,5 @@
 #ifndef __TIMED_OBJECT_HPP__GFLOW__
+#include <functional>
 #define __TIMED_OBJECT_HPP__GFLOW__
 
 #include "../utility/timer.hpp"

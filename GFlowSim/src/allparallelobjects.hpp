@@ -1,4 +1,5 @@
 #ifndef __ALL_PARALLEL_OBJECTS_HPP__GFLOW__
+#include <functional>
 #define __ALL_PARALLEL_OBJECTS_HPP__GFLOW__
 
 #include "parallel/gridtopology.hpp"

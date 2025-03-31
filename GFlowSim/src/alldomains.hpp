@@ -1,4 +1,5 @@
 #ifndef __ALL_DOMAINS_HPP__GFLOW__
+#include <functional>
 #define __ALL_DOMAINS_HPP__GFLOW__
 
 #include "domains/domain.hpp"

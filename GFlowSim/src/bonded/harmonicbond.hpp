@@ -1,4 +1,5 @@
 #ifndef __HARMONIC_BOND_HPP__GFLOW__
+#include <functional>
 #define __HARMONIC_BOND_HPP__GFLOW__
 
 #include "bond.hpp"

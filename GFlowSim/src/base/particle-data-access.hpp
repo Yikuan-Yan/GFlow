@@ -1,4 +1,5 @@
 #ifndef __PARTICLE_DATA_ACCESS_HPP__GFLOW__
+#include <functional>
 #define __PARTICLE_DATA_ACCESS_HPP__GFLOW__
 
 #include "../test/d-vec.hpp"

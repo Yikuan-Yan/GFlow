@@ -1,4 +1,5 @@
 #ifndef __TWO_WALL_MODIFIER_HPP__GFLOW__
+#include <functional>
 #define __TWO_WALL_MODIFIER_HPP__GFLOW__
 
 #include "../base/modifier.hpp"

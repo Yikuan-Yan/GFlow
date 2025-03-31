@@ -1,4 +1,5 @@
 #ifndef __BODY_HPP__GFLOW__
+#include <functional>
 #define __BODY_HPP__GFLOW__
 
 #include "../gflow.hpp"

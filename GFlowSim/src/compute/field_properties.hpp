@@ -1,4 +1,5 @@
 #ifndef __FIELD_PROPERTIES_HPP__GFLOW__
+#include <functional>
 #define __FIELD_PROPERTIES_HPP__GFLOW__
 
 #include "binning2d.hpp"

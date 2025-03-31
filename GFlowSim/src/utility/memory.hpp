@@ -1,4 +1,5 @@
 #ifndef __MEMORY_HPP__GFLOW__
+#include <functional>
 #define __MEMORY_HPP__GFLOW__
 
 namespace GFlowSimulation {

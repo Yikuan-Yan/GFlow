@@ -1,4 +1,5 @@
 #ifndef __GENERIC_HANDLERS_HPP__GFLOW__
+#include <functional>
 #define __GENERIC_HANDLERS_HPP__GFLOW__
 
 #include "../base/interaction.hpp"

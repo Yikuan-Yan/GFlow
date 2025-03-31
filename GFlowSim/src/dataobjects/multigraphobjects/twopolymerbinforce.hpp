@@ -1,4 +1,5 @@
 #ifndef __TWO_POLYMER_BIN_FORCE_HPP__GFLOW__
+#include <functional>
 #define __TWO_POLYMER_BIN_FORCE_HPP__GFLOW__
 
 #include "../dataobjecttypes/multigraphobject.hpp"

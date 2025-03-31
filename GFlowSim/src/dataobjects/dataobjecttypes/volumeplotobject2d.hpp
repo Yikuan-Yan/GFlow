@@ -1,4 +1,5 @@
 #ifndef __VOLUME_PLOT_OBJECT_2D_HPP__GFLOW__
+#include <functional>
 #define __VOLUME_PLOT_OBJECT_2D_HPP__GFLOW__
 
 #include "../../base/dataobject.hpp"

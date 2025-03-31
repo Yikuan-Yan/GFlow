@@ -1,4 +1,5 @@
 #ifndef __AVERAGE_OMEGA_DATA_HPP__GFLOW__
+#include <functional>
 #define __AVERAGE_OMEGA_DATA_HPP__GFLOW__
 
 #include "../dataobjecttypes/graphobject.hpp"

@@ -1,4 +1,5 @@
 #ifndef __EVALUATION_HPP__GFLOW__
+#include <functional>
 #define __EVALUATION_HPP__GFLOW__
 
 #include "../utility/utility.hpp"

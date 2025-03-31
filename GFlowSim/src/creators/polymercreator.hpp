@@ -1,4 +1,5 @@
 #ifndef __POLYMER_CREATOR__HPP__GFLOW__
+#include <functional>
 #define __POLYMER_CREATOR__HPP__GFLOW__
 
 #include "area-creator.hpp"

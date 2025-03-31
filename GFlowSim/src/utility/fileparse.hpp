@@ -1,4 +1,5 @@
 #ifndef __FILEPARSE_HPP__GFLOW__
+#include <functional>
 #define __FILEPARSE_HPP__GFLOW__
 
 #include "utility.hpp"

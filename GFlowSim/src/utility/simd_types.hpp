@@ -1,4 +1,5 @@
 #ifndef __SIMD_TYPES_HPP__GFLOW__
+#include <functional>
 #define __SIMD_TYPES_HPP__GFLOW__
 
 #include "simd.hpp"

@@ -1,4 +1,5 @@
 #ifndef __CONSTANT_VELOCITY_HPP__GFLOW__
+#include <functional>
 #define __CONSTANT_VELOCITY_HPP__GFLOW__
 
 #include "../base/modifier.hpp"

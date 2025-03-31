@@ -1,4 +1,5 @@
 #ifndef __STREAM_TUNNEL_HPP__GFLOW__
+#include <functional>
 #define __STREAM_TUNNEL_HPP__GFLOW__
 
 #include "../base/modifier.hpp"

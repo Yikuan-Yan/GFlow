@@ -1,4 +1,5 @@
 #ifndef __DEMON_WALL_HPP__GFLOW__
+#include <functional>
 #define __DEMON_WALL_HPP__GFLOW__
 
 #include "../base/interaction.hpp"

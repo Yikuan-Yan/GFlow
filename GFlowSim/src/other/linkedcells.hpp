@@ -1,4 +1,5 @@
 #ifndef __LINKED_CELLS_HPP__GFLOW__
+#include <functional>
 #define __LINKED_CELLS_HPP__GFLOW__
 
 namespace GFlowSimulation {

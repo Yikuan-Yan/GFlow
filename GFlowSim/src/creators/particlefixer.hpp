@@ -1,4 +1,5 @@
 #ifndef __PARTICLE_FIXER_HPP__GFLOW__
+#include <functional>
 #define __PARTICLE_FIXER_HPP__GFLOW__
 
 #include "../utility/randomengines.hpp"

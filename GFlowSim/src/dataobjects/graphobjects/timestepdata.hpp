@@ -1,4 +1,5 @@
 #ifndef __TIME_STEP_DATA_HPP__GFLOW__
+#include <functional>
 #define __TIME_STEP_DATA_HPP__GFLOW__
 
 #include "../dataobjecttypes/graphobject.hpp"

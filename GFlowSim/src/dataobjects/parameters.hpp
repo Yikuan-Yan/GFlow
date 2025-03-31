@@ -1,4 +1,5 @@
 #ifndef __PARAMETERS_HPP__GFLOW__
+#include <functional>
 #define __PARAMETERS_HPP__GFLOW__
 
 #include "../base/dataobject.hpp"

@@ -1,4 +1,5 @@
 #ifndef __MIN_INTERACTING_DISTANCE_HPP__GFLOW__
+#include <functional>
 #define __MIN_INTERACTING_DISTANCE_HPP__GFLOW__
 
 #include "../dataobjecttypes/graphobject.hpp"

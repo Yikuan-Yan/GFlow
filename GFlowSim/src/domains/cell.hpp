@@ -1,4 +1,5 @@
 #ifndef __CELL_HPP__GFLOW__
+#include <functional>
 #define __CELL_HPP__GFLOW__
 
 #include "../utility/utility.hpp"

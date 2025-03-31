@@ -1,4 +1,5 @@
 #ifndef __BONDED_ENERGY_DATA_HPP__GFLOW__
+#include <functional>
 #define __BONDED_ENERGY_DATA_HPP__GFLOW__
 
 #include "../dataobjecttypes/graphobject.hpp"

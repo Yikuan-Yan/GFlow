@@ -1,4 +1,5 @@
 #ifndef __SIMD_GENERIC_HPP__GFLOW__
+#include <functional>
 #define __SIMD_GENERIC_HPP__GFLOW__
 
 #include "printingutility.hpp"

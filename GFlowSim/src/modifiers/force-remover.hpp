@@ -1,4 +1,5 @@
 #ifndef __FORCE_REMOVER_HPP__GFLOW__
+#include <functional>
 #define __FORCE_REMOVER_HPP__GFLOW__
 
 #include "../base/modifier.hpp"

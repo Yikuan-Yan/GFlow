@@ -1,4 +1,5 @@
 #ifndef __ALL_BASE_OBJECTS_HPP__GFLOW__
+#include <functional>
 #define __ALL_BASE_OBJECTS_HPP__GFLOW__
 
 #include "base/bonded.hpp"

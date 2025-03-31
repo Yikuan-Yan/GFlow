@@ -1,4 +1,5 @@
 #ifndef __KINETIC_ENERGY_BIN_HPP__GFLOW__
+#include <functional>
 #define __KINETIC_ENERGY_BIN_HPP__GFLOW__
 
 #include "../dataobjecttypes/graphobject.hpp"

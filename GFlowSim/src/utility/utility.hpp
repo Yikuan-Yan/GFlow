@@ -1,4 +1,5 @@
 #ifndef __UTILITY_HPP__GFLOW__
+#include <functional>
 #define __UTILITY_HPP__GFLOW__
 
 #include <iostream>

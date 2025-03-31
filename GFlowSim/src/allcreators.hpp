@@ -1,4 +1,5 @@
 #ifndef __ALL_CREATORS_HPP__GFLOW__
+#include <functional>
 #define __ALL_CREATORS_HPP__GFLOW__
 
 #include "creators/boxcreator.hpp"

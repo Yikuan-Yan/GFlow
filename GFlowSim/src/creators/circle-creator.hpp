@@ -1,4 +1,5 @@
 #ifndef __CIRCLE_CREATOR_HPP__GFLOW__
+#include <functional>
 #define __CIRCLE_CREATOR_HPP__GFLOW__
 
 #include "area-creator.hpp"

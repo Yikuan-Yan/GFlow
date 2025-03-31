@@ -1,4 +1,5 @@
 #ifndef __KD_TREE_TOPOLOGY_HPP__GFLOW__
+#include <functional>
 #define __KD_TREE_TOPOLOGY_HPP__GFLOW__
 
 #include "../base/topology.hpp"

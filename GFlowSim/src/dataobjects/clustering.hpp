@@ -1,4 +1,5 @@
 #ifndef __CLUSTERING_HPP__GFLOW__
+#include <functional>
 #define __CLUSTERING_HPP__GFLOW__
 
 #include "../gflow.hpp"

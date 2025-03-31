@@ -1,4 +1,5 @@
 #ifndef __TIMER_HPP__GFLOW__
+#include <functional>
 #define __TIMER_HPP__GFLOW__
 
 #include "utility.hpp"

@@ -1,4 +1,5 @@
 #ifndef __LANGEVIN_INTEGRATOR_HPP__GFLOW__
+#include <functional>
 #define __LANGEVIN_INTEGRATOR_HPP__GFLOW__
 
 #include "langevintypeintegrator.hpp"

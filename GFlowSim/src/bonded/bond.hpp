@@ -1,4 +1,5 @@
 #ifndef __BOND_HPP__GFLOW__
+#include <functional>
 #define __BOND_HPP__GFLOW__
 
 #include "../base/bonded.hpp"

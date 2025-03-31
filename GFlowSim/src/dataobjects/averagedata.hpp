@@ -1,4 +1,5 @@
 #ifndef __AVERAGE_DATA_HPP__GFLOW__
+#include <functional>
 #define __AVERAGE_DATA_HPP__GFLOW__
 
 #include "../base/dataobject.hpp"

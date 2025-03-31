@@ -1,4 +1,5 @@
 #ifndef __D_VEC_HPP__GFLOW__
+#include <functional>
 #define __D_VEC_HPP__GFLOW__
 
 #include "../utility/generic-dimension.hpp"

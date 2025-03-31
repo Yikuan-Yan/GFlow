@@ -1,4 +1,5 @@
 #ifndef __EXCEPTIONS_HPP__GFLOW__
+#include <functional>
 #define __EXCEPTIONS_HPP__GFLOW__
 
 namespace GFlowSimulation {

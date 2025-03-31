@@ -1,4 +1,5 @@
 #ifndef __CAVITY_STATISTICS_HPP__GFLOW__
+#include <functional>
 #define __CAVITY_STATISTICS_HPP__GFLOW__
 
 #include "../dataobjecttypes/multigraphobject.hpp"

@@ -1,4 +1,5 @@
 #ifndef __NUMBER_DATA_HPP__GFLOW__
+#include <functional>
 #define __NUMBER_DATA_HPP__GFLOW__
 
 #include "../dataobjecttypes/multigraphobject.hpp"

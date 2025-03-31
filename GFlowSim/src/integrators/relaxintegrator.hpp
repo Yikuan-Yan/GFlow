@@ -1,4 +1,5 @@
 #ifndef __RELAX_INTEGRATOR_HPP__GFLOW__
+#include <functional>
 #define __RELAX_INTEGRATOR_HPP__GFLOW__
 
 #include "overdampedintegrator.hpp"

@@ -1,4 +1,5 @@
 #ifndef __PERCOLATION_DATA_HPP__GFLOW__
+#include <functional>
 #define __PERCOLATION_DATA_HPP__GFLOW__
 
 #include "../base/dataobject.hpp"

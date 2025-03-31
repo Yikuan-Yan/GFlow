@@ -1,4 +1,5 @@
 #ifndef __DATA_OBJECT_HPP__GFLOW__
+#include <functional>
 #define __DATA_OBJECT_HPP__GFLOW__
 
 #include "../gflow.hpp"

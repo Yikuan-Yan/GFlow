@@ -1,4 +1,5 @@
 #ifndef __PARSE_CONSTRUCTOR_HPP__GFLOW__
+#include <functional>
 #define __PARSE_CONSTRUCTOR_HPP__GFLOW__
 
 #include "../../other/region.hpp"

@@ -1,4 +1,5 @@
 #ifndef __RADIUS_VOLUME_PLOT_HPP__GFLOW__
+#include <functional>
 #define __RADIUS_VOLUME_PLOT_HPP__GFLOW__
 
 #include "../dataobjecttypes/volumeplotobject2d.hpp"

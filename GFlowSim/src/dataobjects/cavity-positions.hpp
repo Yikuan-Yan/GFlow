@@ -1,4 +1,5 @@
 #ifndef __CAVITY_POSITIONS_HPP__GFLOW__
+#include <functional>
 #define __CAVITY_POSITIONS_HPP__GFLOW__
 
 #include "positiondata.hpp"

@@ -1,4 +1,5 @@
 #ifndef __FILE_PARSE_CREATOR_HPP__GFLOW__
+#include <functional>
 #define __FILE_PARSE_CREATOR_HPP__GFLOW__
 
 #include "../base/creator.hpp"

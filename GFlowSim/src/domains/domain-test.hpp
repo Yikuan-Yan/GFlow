@@ -1,4 +1,5 @@
 #ifndef __DOMAIN_TEST_HPP__GFLOW__
+#include <functional>
 #define __DOMAIN_TEST_HPP__GFLOW__
 
 #include "../base/domainbase.hpp"

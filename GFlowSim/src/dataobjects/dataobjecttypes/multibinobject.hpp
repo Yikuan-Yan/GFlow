@@ -1,4 +1,5 @@
 #ifndef __MULTI_BIN_OBJECT_HPP__GFLOW__
+#include <functional>
 #define __MULTI_BIN_OBJECT_HPP__GFLOW__
 
 #include "../../base/dataobject.hpp"

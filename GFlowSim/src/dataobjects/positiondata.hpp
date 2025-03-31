@@ -1,4 +1,5 @@
 #ifndef __POSITION_DATA_HPP__GFLOW__
+#include <functional>
 #define __POSITION_DATA_HPP__GFLOW__
 
 #include "../base/dataobject.hpp"

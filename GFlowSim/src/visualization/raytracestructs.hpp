@@ -1,4 +1,5 @@
 #ifndef __RAY_TRACE_STRUCTS_HPP__GFLOW__
+#include <functional>
 #define __RAY_TRACE_STRUCTS_HPP__GFLOW__
 
 #include "../utility/utility.hpp"

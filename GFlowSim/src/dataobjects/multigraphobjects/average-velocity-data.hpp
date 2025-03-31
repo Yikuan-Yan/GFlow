@@ -1,4 +1,5 @@
 #ifndef __AVERAGE_VELOCITY_DATA_HPP__GFLOW__
+#include <functional>
 #define __AVERAGE_VELOCITY_DATA_HPP__GFLOW__
 
 #include "../dataobjecttypes/multigraphobject.hpp"

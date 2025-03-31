@@ -1,4 +1,5 @@
 #ifndef __DATABASE_HPP__GFLOW__
+#include <functional>
 #define __DATABASE_HPP__GFLOW__
 
 #include "utility.hpp"

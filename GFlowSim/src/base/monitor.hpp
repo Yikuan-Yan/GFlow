@@ -1,4 +1,5 @@
 #ifndef __MONITOR_HPP__GFLOW__
+#include <functional>
 #define __MONITOR_HPP__GFLOW__
 
 #include "../gflow.hpp"

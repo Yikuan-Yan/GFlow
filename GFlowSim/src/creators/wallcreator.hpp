@@ -1,4 +1,5 @@
 #ifndef __WALL_CREATOR_HPP__GFLOW__
+#include <functional>
 #define __WALL_CREATOR_HPP__GFLOW__
 
 #include "area-creator.hpp"

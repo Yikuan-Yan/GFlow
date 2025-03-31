@@ -1,4 +1,5 @@
 #ifndef __RAY_TRACE_HPP__GFLOW__
+#include <functional>
 #define __RAY_TRACE_HPP__GFLOW__
 
 #include "../EasyBMP/EasyBMP.h"

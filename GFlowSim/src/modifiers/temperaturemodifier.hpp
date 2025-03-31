@@ -1,4 +1,5 @@
 #ifndef __TEMPERATURE_MODIFIER_HPP__GFLOW__
+#include <functional>
 #define __TEMPERATURE_MODIFIER_HPP__GFLOW__
 
 #include "../base/modifier.hpp"

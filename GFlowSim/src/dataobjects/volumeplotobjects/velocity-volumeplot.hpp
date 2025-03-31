@@ -1,4 +1,5 @@
 #ifndef __VELOCITY_VOLUME_PLOT_HPP__GFLOW__
+#include <functional>
 #define __VELOCITY_VOLUME_PLOT_HPP__GFLOW__
 
 #include "../dataobjecttypes/volumeplotobject2d.hpp"

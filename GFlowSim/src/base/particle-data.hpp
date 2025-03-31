@@ -1,4 +1,5 @@
 #ifndef __PARTICLE_DATA_HPP__GFLOW__
+#include <functional>
 #define __PARTICLE_DATA_HPP__GFLOW__
 
 #include "particle-data-access.hpp"

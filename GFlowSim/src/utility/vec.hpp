@@ -1,4 +1,5 @@
 #ifndef __VEC_TYPE_HPP__GFLOW__
+#include <functional>
 #define __VEC_TYPE_HPP__GFLOW__
 
 #include <ostream>

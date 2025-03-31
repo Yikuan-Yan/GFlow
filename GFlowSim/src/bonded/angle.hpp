@@ -1,4 +1,5 @@
 #ifndef __ANGLE_HPP__GFLOW__
+#include <functional>
 #define __ANGLE_HPP__GFLOW__
 
 #include "../base/bonded.hpp"

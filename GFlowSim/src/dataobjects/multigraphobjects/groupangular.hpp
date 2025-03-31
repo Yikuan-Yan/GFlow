@@ -1,4 +1,5 @@
 #ifndef __GROUP_ANGULAR_HPP__GFLOW__
+#include <functional>
 #define __GROUP_ANGULAR_HPP__GFLOW__
 
 #include "../dataobjecttypes/multigraphobject.hpp"

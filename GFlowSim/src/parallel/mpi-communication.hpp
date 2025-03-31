@@ -1,4 +1,5 @@
 #ifndef __MPI_COMMUNICATION_HPP__GFLOW__
+#include <functional>
 #define __MPI_COMMUNICATION_HPP__GFLOW__
 
 #include "../utility/utility.hpp"

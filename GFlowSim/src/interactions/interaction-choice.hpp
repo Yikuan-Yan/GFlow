@@ -1,4 +1,5 @@
 #ifndef __INTERACTION_CHOICE_HPP__GFLOW__
+#include <functional>
 #define __INTERACTION_CHOICE_HPP__GFLOW__
 
 #include "../allinteractions.hpp"

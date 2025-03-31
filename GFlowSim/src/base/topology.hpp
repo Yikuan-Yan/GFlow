@@ -1,4 +1,5 @@
 #ifndef __TOPOLOGY_HPP__GFLOW__
+#include <functional>
 #define __TOPOLOGY_HPP__GFLOW__
 
 #include "../gflow.hpp"
