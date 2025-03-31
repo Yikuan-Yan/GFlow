@@ -1,4 +1,5 @@
 #ifndef __HARD_SPHERE_GENERIC_HPP__GFLOW__
+#include <cmath>
 #include <functional>
 #define __HARD_SPHERE_GENERIC_HPP__GFLOW__
 
