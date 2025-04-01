@@ -90,7 +90,7 @@ namespace GFlowSimulation {
     MPIObject::mpi_sum0(count);
     MPIObject::mpi_sum0(yval);
     // Check for NANs
-    if (isnan(yval)) throw NanValue("GraphObject::gatherAverageData");
+    if (std::isnan(yval)) throw NanValue("GraphObject::gatherAverageData");
     // If this is the root processor (0), store the data average.
     if (topology->getRank()==0) addEntry(x, yval/count);
   }
@@ -100,7 +100,7 @@ namespace GFlowSimulation {
     MPIObject::mpi_sum0(weight);
     MPIObject::mpi_sum0(yval);
     // Check for NANs
-    if (isnan(yval)) throw NanValue("GraphObject::gatherAverageData");
+    if (std::isnan(yval)) throw NanValue("GraphObject::gatherAverageData");
     // If this is the root processor (0), store the data average.
     if (topology->getRank()==0) addEntry(x, yval/weight);
   }
@@ -108,7 +108,7 @@ namespace GFlowSimulation {
   void GraphObject::gatherData(const RealType x, RealType yval) {
     MPIObject::mpi_sum0(yval);
     // Check for NANs
-    if (isnan(yval)) throw NanValue("GraphObject::gatherAverageData");
+    if (std::isnan(yval)) throw NanValue("GraphObject::gatherAverageData");
     // If this is the root processor (0), store the data.
     if (topology->getRank()==0) addEntry(x, yval);
   }

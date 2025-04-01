@@ -162,7 +162,7 @@ namespace GFlowSimulation {
     for (int i=0; i<_size[0]; ++i) {
       for (int d=0; d<sim_dimensions; ++d) {
         // If a component of position or velocity is nan, remove that particle.
-        if (isnan(X(i, d)) || isnan(V(i, d))) {
+        if (std::isnan(X(i, d)) || std::isnan(V(i, d))) {
           markForRemoval(i);
           removed_some = true;
           break;

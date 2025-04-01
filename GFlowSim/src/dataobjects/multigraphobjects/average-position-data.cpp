@@ -31,7 +31,7 @@ namespace GFlowSimulation {
     // Compute totals
     int count = 0;
     for (int n=0; n<size; ++n)
-      if (im[n]>0 && !isnan(x(n, 0)) && type[n]>-1 && gather_bounds.contains(x(n))) { // Presumably, if one component is nan, all are.
+      if (im[n]>0 && !std::isnan(x(n, 0)) && type[n]>-1 && gather_bounds.contains(x(n))) { // Presumably, if one component is nan, all are.
         for (int d=0; d<sim_dimensions; ++d)
           ave[d] += x(n, d);
         ++count;

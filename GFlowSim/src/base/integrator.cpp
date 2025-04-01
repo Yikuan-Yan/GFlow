@@ -51,7 +51,7 @@ namespace GFlowSimulation {
     }
     // No information. Maybe this is the start of a run.
     if (maxV==0 && maxA==0) return;
-    if (isnan(maxV) || isnan(maxA)) throw NanValue("Integrator pre-step detected NAN value.");
+    if (std::isnan(maxV) || std::isnan(maxA)) throw NanValue("Integrator pre-step detected NAN value.");
     // Set the timestep
     real dt_c = min(dt_v, dt_a); // Candidate dt
     dt = dt_c<dt ? dt_c : 0.9*dt + 0.1*dt_c;
