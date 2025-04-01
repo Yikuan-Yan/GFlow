@@ -527,7 +527,7 @@ namespace GFlowSimulation {
       RealType M_eff = m1*m2/(m1+m2);
 
       // In case one or both particles are infinitely massive.
-      M_eff = isnan(M_eff) ? 1. : M_eff;
+      M_eff = std::isnan(M_eff) ? 1. : M_eff;
       
       // Calculate relative velocity.
       RealType V[dims];
@@ -707,7 +707,7 @@ namespace GFlowSimulation {
       RealType M_eff = m1*m2/(m1+m2);
 
       // In case one or both particles are infinitely massive.
-      M_eff = isnan(M_eff) ? 1. : M_eff;
+      M_eff = std::isnan(M_eff) ? 1. : M_eff;
       
       // Calculate relative velocity.
       RealType V[dims];
