@@ -22,7 +22,7 @@ namespace GFlowSimulation {
     int count = 0;
     for (int n=0; n<simData->size_owned(); ++n) {
       RealType vsqr = sqr(v(n), sim_dimensions);
-      if (im[n]>0 && !isnan(vsqr)) {
+      if (im[n]>0 && !std::isnan(vsqr)) {
         RealType m = 1./im(n);
         ke += m*vsqr;
         ++count;
