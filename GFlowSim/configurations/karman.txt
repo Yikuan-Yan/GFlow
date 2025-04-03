@@ -1,0 +1,116 @@
+// Karman vortex street simulation - 2D
+Dimensions: 2
+
+// VARIABLES
+// Simulation Box Dimensions
+Var: Length=30       // Length of the simulation box (flow direction)
+Var: Height=5        // Half-height of the channel (total height is 2*Height)
+Var: Front=7.5       // Length of the section before the obstacle
+
+// Fluid Particle Properties
+Var: MinR=0.03       // Minimum radius of fluid particles (Used for obstacle Sigma)
+Var: MaxR=0.036      // Maximum radius of fluid particles (Used for Excluded buffer)
+Var: FluidRadius=0.033 // Average radius for direct use in Template
+Var: FluidMass=1       // Direct mass value for Template
+Var: FluidPhi=0.875    // Packing fraction of fluid particles (User specified)
+Var: FluidVelocity=2.0 // Target fluid velocity
+
+// Obstacle Properties
+Var: ObstacleRadius=1.0 // Radius of the cylindrical obstacle
+Var: ObstaclePosX=0     // X-position of the obstacle center
+Var: ObstaclePosY=0     // Y-position of the obstacle center
+
+// Interaction Force Parameters (HardSphereDs)
+Var: Repulsion=500    // Repulsion coefficient
+Var: Dissipation=1      // Dissipation coefficient
+
+// Simulation Time Step
+Var: MaxDT=0.0001     // Maximum integration time step
+
+// --- SIMULATION SETUP ---
+
+// Set the simulation bounds
+// X: -Front to Length
+// Y: -Height to Height
+Bounds: {
+  : -Front, Length
+  : -Height, Height
+}
+
+// Integrator
+Integrator: VelocityVerlet {
+  MaxDT: MaxDT
+}
+
+// Boundary Conditions
+Boundary: {
+  : Wrap      // Periodic boundary in flow direction (X)
+  : Repulse   // Solid walls in transverse direction (Y)
+}
+
+// Set the number of particle types
+// Type 0: Fluid particles
+// Type 1: Obstacle particles
+NTypes: 2
+
+// Define interaction forces between particle types (Modified Version)
+Force-grid: {
+  // Fluid-Fluid interaction (Type 0 <-> Type 0)
+  : 0, 0, HardSphereDs { // Define force with parameters here
+    Repulsion: Repulsion
+    Dissipation: Dissipation
+  }
+  // Fluid-Obstacle interaction (Type 0 <-> Type 1)
+  : 0, 1, HardSphereDs // Removed parameter block {} here, assuming inheritance/defaults
+  // Obstacle-Obstacle interaction (Type 1 <-> Type 1)
+  : 1, 1, None
+}
+
+// Define a template for fluid particles (Simplified version)
+Template: TypeA {
+  Radius: FluidRadius // Use direct average radius value
+  Mass: FluidMass     // Use direct mass value
+  Type: 0
+}
+
+// Fill the simulation area with fluid particles
+Fill: Area {
+  Bounds: Full
+  Template: TypeA {
+  Radius: FluidRadius // Use direct average radius value
+  Mass: FluidMass     // Use direct mass value
+  Type: 0
+}
+  Number: Phi=FluidPhi {
+    TypeA : 1 // Reference TypeA here
+  }
+  // Exclude the area occupied by the obstacle
+  Excluded: Sphere {
+    : ObstaclePosX, ObstaclePosY
+    // Buffer still uses MaxR for safety margin calculation
+    : ObstacleRadius + 4*MaxR
+  }
+  Velocity: FluidVelocity, 0 // Initial velocity (along X)
+}
+
+// Create the cylindrical obstacle
+Fill: Circle {
+  Center: ObstaclePosX, ObstaclePosY
+  // Sigma still uses MinR
+  Sigma: MinR
+  Radius: ObstacleRadius
+  Type: 1 // Obstacle is Type 1
+}
+
+// Initial Hard Sphere Relaxation (Optional, but recommended)
+HSRelax: 0.5 {
+  // MaxMove: MinR*0.1
+}
+
+// Apply WindTunnel modifier to drive the flow
+Modifier: WindTunnel {
+  Velocity: FluidVelocity
+}
+
+// Optional: Relax using full forces after HSRelax if needed
+Relax: 0.1
